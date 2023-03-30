@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Problema_18",
+            "request": "launch",
+            "mainClass": "Problema_18",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_17",
+            "request": "launch",
+            "mainClass": "Problema_17",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_16",
+            "request": "launch",
+            "mainClass": "Problema_16",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_15",
+            "request": "launch",
+            "mainClass": "Problema_15",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_14",
+            "request": "launch",
+            "mainClass": "Problema_14",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_13",
+            "request": "launch",
+            "mainClass": "Problema_13",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_12",
+            "request": "launch",
+            "mainClass": "Problema_12",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_11",
+            "request": "launch",
+            "mainClass": "Problema_11",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_8",
+            "request": "launch",
+            "mainClass": "Problema_8",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_7",
+            "request": "launch",
+            "mainClass": "Problema_7",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_6",
+            "request": "launch",
+            "mainClass": "Problema_6",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_5",
+            "request": "launch",
+            "mainClass": "Problema_5",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_4",
+            "request": "launch",
+            "mainClass": "Problema_4",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_3",
+            "request": "launch",
+            "mainClass": "Problema_3",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_2",
+            "request": "launch",
+            "mainClass": "Problema_2",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Problema_1",
+            "request": "launch",
+            "mainClass": "Problema_1",
+            "projectName": "Teste_834cdf29"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Teste_834cdf29"
+        }
+    ]
+}
