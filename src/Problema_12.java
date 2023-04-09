@@ -14,7 +14,7 @@ public class Problema_12 {
     System.out.print("Qual a sua altura? ");
     double altura = entrada.nextDouble();
 
-    System.out.print("O seu peso ideal é: " + ((72.7*altura) - 58));
+    System.out.printf("> O seu peso ideal é: %.2f" , ((72.7*altura) - 58));
     entrada.close();
    }
 
