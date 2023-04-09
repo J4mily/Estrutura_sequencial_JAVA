@@ -1,8 +1,12 @@
 import java.util.Scanner;
+/*Nome do Aluno: Franciely Jamily Queiroz Pereira
+* RA: 13523113789
+* Nome do Programa: Tempo aproximado de dowload.
+* Descrição: 18. Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de 
+    //Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
+* Data: 09/04/2023 */
 
 public class Problema_18 {
-    //18. Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de 
-    //Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
    
     public static void main(String[] args) {
 
@@ -17,7 +21,7 @@ public class Problema_18 {
         double tempo = tamanho / velocidade;
         double min = tempo/60;
 
-        System.out.printf("O tempo aproximado de download do arquivo em minutos será de %.2f minutos.",min);
+        System.out.printf("> O tempo aproximado de download do arquivo em minutos será de %.2f minutos.",min);
 
         s.close();
 
