@@ -21,21 +21,23 @@ public static void main(String[] args) {
     double preco = latas * 80;
     double galoes = Math.ceil(litros/3.6);
 
+    System.out.println("Apenas latas de 18 litros: " + latas +"unidade e o preço equivale a " + preco);
+
     if(galoes % 3.6 != 0){
        galoes += 1;       
     }
-
     double preco2 = galoes * 25;
+    System.out.println("Apenas galões de 3.6 litros: " + galoes + "unidade e o preço equivale a " + preco2);
 
-    double mistura_lata = Math.ceil(litros / 18.0);
-    double mistura_galao = Math.ceil((litros - (mistura_lata * 18)) / 3.6);
+    double litros_mistura = area * 1.1 / 6;
+
+    double mistura_lata = Math.floor(litros_mistura / 18);
+    double mistura_galao = Math.ceil((litros_mistura % 18) / 3.6);
 
     if(litros - (mistura_lata * 18) % 3.6 != 0){
     mistura_galao += 1;
     }
 
-
-    System.out.println("Apenas latas de 18 litros: " + latas +"unidade e o preço equivale a " + preco);
     System.out.println("Apenas galões de 3.6 litros: " + galoes + "unidade e o preço equivale a " + preco2);
     System.out.println("Mistura: " + mistura_lata +" latas e " + mistura_galao  +" galoes = " + ((mistura_lata * 80) + (mistura_galao * 25)));
 

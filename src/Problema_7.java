@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
+/*Nome do Aluno: Franciely Jamily Queiroz Pereira
+* RA: 13523113789
+* Nome do Programa: Calculo a área de um quadrado.
+* Descrição: 7.Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+* Data: 09/04/2023 */
+
 public class Problema_7 {
-   //7.Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
    public static void main(String args[]){
        
     Scanner val = new Scanner(System.in);
