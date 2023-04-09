@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
-public class Problema_5 {
+/*Nome do Aluno: Franciely Jamily Queiroz Pereira
+* RA: 13523113789
+* Nome do Programa: Programa que pergunte ao usuário um valor em metros e converta o valor digitado.
+* Descrição: 5. Faça um Programa que pergunte ao usuário um valor em metros e converta o valor digitado para centímetros.
+* Data: 09/04/2023 */
 
-	  //5. Faça um Programa que pergunte ao usuário um valor em metros e
-    //converta o valor digitado para centímetros.
+public class Problema_5 {
 
         public static void main(String args[]){
        
@@ -14,7 +17,7 @@ public class Problema_5 {
        
          float centimetros = metros * 100;
        
-         System.out.printf("Isso equivale a: %.1f cm",centimetros);
+         System.out.printf("> Isso equivale a: %.1f cm",centimetros);
        
          val.close();
        }

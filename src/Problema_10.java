@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
+/*Nome do Aluno: Franciely Jamily Queiroz Pereira
+* RA: 13523113789
+* Nome do Programa: Celsius => Fahrenheit.
+* Descrição: 10.Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+* Data: 09/04/2023 */
+
 public class Problema_10 {
-    // 10.Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
     public static void main(String[] args) {
 
 		Scanner entrada = new Scanner(System.in);
@@ -14,7 +19,7 @@ public class Problema_10 {
 		
 		double Fahrenheit = ( 9 * Celsius + 160 ) / 5;
 
-		System.out.print("\n A medida convertida é " + Fahrenheit + "ºF\n");
+		System.out.print("\n> A medida convertida é " + Fahrenheit + " ºF\n");
 		
         entrada.close();
 	}
